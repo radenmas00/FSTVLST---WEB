@@ -28,4 +28,8 @@ img.rounded-circle {
     display: block;
     width: 100%;
     height: auto;
+    margin: 0 auto; /* agar tetap berada di tengah */
+    max-width: 100%; /* mencegah gambar melampaui lebar layar */
+    object-fit: cover; /* mempertahankan proporsi saat layar diubah */
 }
+
