@@ -33,3 +33,22 @@ img.rounded-circle {
     object-fit: cover; /* mempertahankan proporsi saat layar diubah */
 }
 
+.bg-light-full {
+    background-color: #f8f9fa;
+    width: 100vw;
+    margin-left: calc(50% - 50vw); /* Membuat background full */
+    padding: 20px 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    position: relative;
+    margin-top: auto; /* Membuat footer selalu di bawah konten */
+    width: 100%;
+}
