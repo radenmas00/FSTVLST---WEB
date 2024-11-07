@@ -1,0 +1,30 @@
+.member-card {
+    border: 2px solid #ddd; /* Memberikan border pada setiap kartu anggota */
+    border-radius: 10px; /* Membuat sudut lebih halus */
+    padding: 15px; /* Menambahkan jarak di dalam kartu */
+    background-color: #f9f9f9; /* Warna latar belakang kartu */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan halus */
+    transition: transform 0.3s ease-in-out; /* Animasi saat hover */
+}
+
+.member-card:hover {
+    transform: translateY(-10px); /* Efek hover: kartu naik sedikit */
+}
+
+img.rounded-circle {
+    width: 100%; /* Membuat gambar mengikuti lebar kolom */
+    height: auto; /* Menjaga rasio gambar tetap */
+    max-width: 200px; /* Ukuran maksimal gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+@media (max-width: 768px) {
+    .member-card {
+        margin-bottom: 20px; /* Menambahkan jarak pada kolom di perangkat kecil */
+    }
+}
+
+.full-width-image {
+    display: block;
+    width: 100%;
+}
